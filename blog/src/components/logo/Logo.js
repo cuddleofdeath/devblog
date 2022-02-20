@@ -6,7 +6,7 @@ export const Logo = () => {
   return (
     <div>
       {/* <p className="animate" >Test</p> */}
-      <h1>Testing</h1>
+      <h1>Blog</h1>
     </div>
  
     )

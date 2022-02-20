@@ -16,7 +16,7 @@
 
 .App-header {
   background-color: blueviolet;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,4 +42,24 @@
 .navbar {
   background-color: rebeccapurple;
   min-width: 100vw;
+  color: #fff;
+}
+
+.content {
+  background-color: #fff;
+  color: #000;
+  width: 100vw;
+  font-size: 0.65em;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.blogpost {
+ margin: 0 7em 4em 7em;
+}
+
+.midsection {
+  background-color: #61dafb;
+  width: 100%;
+  height: 10vh;
 }

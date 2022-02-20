@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Press+Start+2P&family=VT323&display=swap');
+
+h1 {
+  font-family: 'Black Ops One', sans-serif;
+  font-size: 4em;
+}
+
+
+.animate {
+  font-size: 10em;
+  pointer-events: none;
+  font-family: 'Black Ops One', sans-serif;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .animate {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+@keyframes Animate-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
